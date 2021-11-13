@@ -1,0 +1,32 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: atarchou <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/11/02 14:48:13 by atarchou          #+#    #+#             */
+/*   Updated: 2021/11/11 15:18:46 by atarchou         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
+
+void	ft_putchar_fd(char c, int fd)
+{
+	if (fd < 0)
+		return ;
+	write(fd, &c, 1);
+}
+/*
+int	main(int argc, char **argv)
+{
+	int fd;
+
+	if (argc == 2)
+	{
+		fd = open(argv[1], O_RDWR);
+		ft_putchar_fd('a', fd);
+	}
+	return 0;
+}*/
