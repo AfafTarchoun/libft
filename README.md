@@ -58,11 +58,11 @@ and others suggested by 42 to ease up coding in c.**
 - **ft_lstiter** : *Iterates the list ’lst’ and applies the function ’f’ on the content of each node.*
 - **ft_lstmap** : *Iterates the list ’lst’ and applies the function ’f’ on the content of each node. Creates a new list resulting of the successive applications of the function ’f’.*
 
-### Clone :
+## Clone ::pushpin:
 `git clone https://github.com/AfafTarchoun/libft.git`
 
-### Compilation :
-- make - to compile C files - create object files and library libft.a
-- make clean - to remove object files
-- make fclean - remove libft.a file
-- make re - recompile the library
+## Compilation ::pushpin:
+- `make` - to compile C files - create object files and library libft.a
+- `make clean` - to remove object files
+- `make fclean` - remove libft.a file
+- `make re` - recompile the library
