@@ -6,11 +6,11 @@
 /*   By: atarchou <atarchou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/05 12:36:56 by atarchou          #+#    #+#             */
-/*   Updated: 2022/05/05 12:37:17 by atarchou         ###   ########.fr       */
+/*   Updated: 2023/03/26 21:00:38 by atarchou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libft.h"
 
 int	ft_strcmp(char *s1, char *s2)
 {

@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstmap.c                                        :+:      :+:    :+:   */
+/*   ft_lstmap_bonus.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: atarchou <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: atarchou <atarchou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 15:13:48 by atarchou          #+#    #+#             */
-/*   Updated: 2021/11/13 04:02:07 by atarchou         ###   ########.fr       */
+/*   Updated: 2023/03/26 21:00:38 by atarchou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include"../include/libft.h"
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void(*del)(void *))
 {

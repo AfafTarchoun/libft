@@ -1,49 +1,49 @@
 NAME = libft.a
 
-SRCS = ft_isalpha.c \
-       ft_strnstr.c \
-       ft_split.c \
-       ft_strmapi.c \
-       ft_itoa.c \
-       ft_putnbr_fd.c \
-       ft_striteri.c \
-       ft_tolower.c \
-       ft_putendl_fd.c \
-       ft_putstr_fd.c \
-       ft_memmove.c \
-       ft_putchar_fd.c \
-       ft_strlcpy.c \
-       ft_strjoin.c \
-       ft_substr.c \
-       ft_calloc.c \
-       ft_strlcat.c \
-       ft_strlen.c \
-       ft_toupper.c \
-       ft_memcpy.c \
-       ft_strdup.c \
-       ft_atoi.c \
-       ft_memcmp.c \
-       ft_strchr.c \
-       ft_memchr.c \
-       ft_strrchr.c \
-       ft_strncmp.c \
-       ft_memset.c \
-       ft_isdigit.c \
-       ft_isalnum.c \
-       ft_isascii.c \
-       ft_isprint.c \
-       ft_bzero.c \
-       ft_strtrim.c
+SRCS = functions/ft_isalpha.c \
+       functions/ft_strnstr.c \
+       functions/ft_split.c \
+       functions/ft_strmapi.c \
+       functions/ft_itoa.c \
+       functions/ft_putnbr_fd.c \
+       functions/ft_striteri.c \
+       functions/ft_tolower.c \
+       functions/ft_putendl_fd.c \
+       functions/ft_putstr_fd.c \
+       functions/ft_memmove.c \
+       functions/ft_putchar_fd.c \
+       functions/ft_strlcpy.c \
+       functions/ft_strjoin.c \
+       functions/ft_substr.c \
+       functions/ft_calloc.c \
+       functions/ft_strlcat.c \
+       functions/ft_strlen.c \
+       functions/ft_toupper.c \
+       functions/ft_memcpy.c \
+       functions/ft_strdup.c \
+       functions/ft_atoi.c \
+       functions/ft_memcmp.c \
+       functions/ft_strchr.c \
+       functions/ft_memchr.c \
+       functions/ft_strrchr.c \
+       functions/ft_strncmp.c \
+       functions/ft_memset.c \
+       functions/ft_isdigit.c \
+       functions/ft_isalnum.c \
+       functions/ft_isascii.c \
+       functions/ft_isprint.c \
+       functions/ft_bzero.c \
+       functions/ft_strtrim.c
 
-B_SRCS = ft_lstadd_back_bonus.c \
-     ft_lstadd_front_bonus.c \
-     ft_lstdelone_bonus.c \
-     ft_lstlast_bonus.c \
-     ft_lstnew_bonus.c \
-     ft_lstsize_bonus.c \
-     ft_lstiter_bonus.c \
-     ft_lstclear_bonus.c\
-	 ft_lstmap_bonus.c
+B_SRCS = functions/ft_lstadd_back_bonus.c \
+     functions/ft_lstadd_front_bonus.c \
+     functions/ft_lstdelone_bonus.c \
+     functions/ft_lstlast_bonus.c \
+     functions/ft_lstnew_bonus.c \
+     functions/ft_lstsize_bonus.c \
+     functions/ft_lstiter_bonus.c \
+     functions/ft_lstclear_bonus.c\
+	 functions/ft_lstmap_bonus.c
 CC = gcc 
 FLAGS = -Wall -Wextra -Werror
 B_OBJ = $(B_SRCS:.c=.o)

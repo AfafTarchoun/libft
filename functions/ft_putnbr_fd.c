@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: atarchou <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: atarchou <atarchou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/12 22:52:26 by atarchou          #+#    #+#             */
-/*   Updated: 2021/11/13 02:46:14 by atarchou         ###   ########.fr       */
+/*   Updated: 2023/03/26 21:00:38 by atarchou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*#include <limits.h>
 #include <unistd.h>*/
-#include"libft.h"
+#include"../include/libft.h"
 
 void	ft_putnbr_fd(int n, int fd)
 {
